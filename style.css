@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('images/rainy.jfif');
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    opacity: 0.75;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bodyContainer{
+    border: 0.5px solid black;
+    height: 700px;
+    background-color: white;
+    
+}
+.app-main{
+    width: 300px;
+    height: 450px;
+    margin: 100px auto;
+    background-color: gray;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+.app-main > *{
+    margin-bottom: 20px;
+}
+#inputCity{
+    margin-top: 30px;
+    width: 98%;
+    height: 40px;
+    background-color: rgba(255,255,255);
+    border: none;
+    outline: none;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    font-weight:bolder;
+    padding: 3px;
+    border-radius: 8px;
+    display: block;
+    margin: auto;
+    
+}
+#inputCity:focus{
+    background-color: rgba(255,255,255);
+}
+.cardBody{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    width: 100%;
+    line-height: 2rem;
+    border-radius: 8px;
+    background-color: rgba(255,255,255);
+    height: 335px;
+    color: black;
+}
+#city{
+    font-weight: bolder;
+    font-size: 1.8rem;
+}
+#temp{
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
