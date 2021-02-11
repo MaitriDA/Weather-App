@@ -4,3 +4,7 @@ A JavaScript based weather app to explore and learn concept of APIs. Get the cur
 <p align="center">
   <img width="455" height="480" src="https://raw.githubusercontent.com/MaitriDA/Weather-App/master/images/Weather%201.JPG">
 </p>
+<br>
+<p align="center">
+  <img width="455" height="480" src="https://raw.githubusercontent.com/MaitriDA/Weather-App/master/images/Weather%202.JPG">
+</p>
